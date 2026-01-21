@@ -1,4 +1,0 @@
-*.msi filter=lfs diff=lfs merge=lfs -text
-*.exe filter=lfs diff=lfs merge=lfs -text
-Instaladores_Linux/V$PagueClient.4.1.31Linux_X32.zip filter=lfs diff=lfs merge=lfs -text
-Instaladores_Linux/V$PagueClient.4.1.31Linux_X64.zip filter=lfs diff=lfs merge=lfs -text
