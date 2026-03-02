@@ -32,6 +32,90 @@ Para novas atualizações adicione o bloco abaixo com os detalhes da liberação
 ///FIM
 -->
 # Release Notes - GP TEFHUB
+## 11/02/2026 - v05.06.01
+
+### Melhorias
+- Atualização do componente provider 3
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.06.00    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.32.2      |
+| Provider 5      | 4.4.6.2     |
+| Provider 7      | 4.1.2.37    |
+
+----------------------------------------------
+
+## 16/01/2026 - v05.06.00
+
+### Melhorias
+- Atualização do componente E1_Tef para v05.06.00
+- Coleta remota de LOGs
+	Implementação do serviço de coleta de LOGs
+	Ao instalar essa versão será gerada a documentação no link:
+	http://localhost:7172/swagger/index.html
+- Atualização Provider 3 - v4.31.0
+- Atualização Provider 5 - v4.4.6.2
+
+### Correções
+- Correção do card 303
+	Centralização da tela do gerenciador padrão
+- Correção do card 305
+	Correção do ícone da aplicação
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.06.00    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.31.0      |
+| Provider 5      | 4.4.6.2     |
+| Provider 7      | 4.1.2.37    |
+
+----------------------------------------------
+
+## 28/10/2025 - v05.05.00
+
+### Melhorias
+- Atualização do client Scope para a versão 4.1.2.37
+- Atualização do client Destaxa para a versão 4.4.5
+- Atualização do componente E1_Tef para a versão 05.05.00
+
+### Correções
+- Correção do card 270.
+    - Identificamos um bug na versão x86 do GP que causava o travamento da solução;
+    - Removemos a utilização da biblioteca E1_Updater e o bug foi corrigido.
+- Correção do número sequencial na coletas das funções administrativas.
+
+### Componentes
+
+| Componente  | Versão      |
+|-------------|-------------|
+| E1_TEF      | 05.05.00    |
+| E1_ETX      | 04.06.00    |
+| E1_UPDATER  | 01.02.00    |
+| E1_UPLOADER | 02.00.01    |
+| E1_Connect  | 02.00.00    |
+| Provider 2  | 2.3.7       |
+| Provider 3  | 4.29.1      |
+| Provider 5  | 4.4.5       |
+| Provider 7  | 4.1.2.37    |
+
+----------------------------------------------
 
 ## 09/10/2025 - v05.04.01
 

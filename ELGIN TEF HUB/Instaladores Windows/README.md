@@ -1,4 +1,5 @@
 <!-- 
+
 Este arquivo contem as notas de liberação para o software Elgin TEFHUB :: E1_TEF
 Para novas atualizações adicione o bloco abaixo com os detalhes da liberação:
 
@@ -32,6 +33,123 @@ Para novas atualizações adicione o bloco abaixo com os detalhes da liberação
 <!-- Adiciona novas entradas abaixo deste comentário -->
 
 # Release Notes - Lib E1_TEF
+## 25/02/2026 - v05.06.02
+
+### Melhorias
+- N/A
+
+### Correções
+- Confirmação PIX estável (card 310)
+  - Correção no fluxo de confirmação/desfazimento Digipay
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.06.02    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.32.2      |
+| Provider 5      | 4.4.6.2     |
+| Provider 7      | 4.1.2.37    |
+
+----------------------------------------------
+
+## 11/02/2026 - v05.06.01
+
+### Melhorias
+- Atualização do componente provider 3
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.06.00    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.32.2      |
+| Provider 5      | 4.4.6.2     |
+| Provider 7      | 4.1.2.37    |
+
+----------------------------------------------
+
+## 16/01/2026 - v05.06.00
+
+### Melhorias
+- Coleta remota de LOGs
+	Implementação do serviço de coleta de LOGs
+	Ao instalar essa versão será gerada a documentação no link:
+	http://localhost:7172/swagger/index.html
+- Atualização Provider 3 - v4.31.0
+- Atualização Provider 5 - v4.4.6.2
+
+### Correções
+- Correção do card 301
+	Inclusão do NSU no retorno das transações
+- Correção do card 310
+	Implementação de uma validação em casos de erro de comunicação.
+- Correção do card 311
+	Implementação de registro em LOG com o resultado da ativação silenciosa do Provider 5
+- Correção do card 314
+	Padronização dos dados antes da validação.
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.31.0      |
+| Provider 5      | 4.4.6.2     |
+| Provider 7      | 4.1.2.37    |
+
+----------------------------------------------
+
+## 04/11/2025 - v05.05.00
+
+### Melhorias
+- Atualização do client Provider7 para a versão 4.1.2.37;
+  - Essa nova versão suporta o novo trilho voucher.
+- Atualização do client Provider5 para a versão 4.4.5.
+
+### Correções
+- Correção do card 270;
+  - Identificamos um bug na versão x86 do GP que causava o travamento da solução;
+  - Removemos a utilização da biblioteca E1_Updater e o bug foi corrigido.
+- Correção do número sequencial na coletas das funções administrativas;
+- Correção do card 271;
+- Correção do card 277;
+- Correção do card 279;
+- Correção do card 280.
+- Correção do card 281.
+  - Valor de automacao_coleta_retorno devolvido pela lib nas novas versões do Provider 5.
+
+### Componentes
+
+| Componente  | Versão      |
+|-------------|-------------|
+| E1_ETX      | 04.06.00    |
+| E1_UPDATER  | 01.02.00    |
+| E1_UPLOADER | 02.00.01    |
+| E1_Connect  | 02.00.00    |
+| Provider 2  | 2.3.7       |
+| Provider 3  | 4.29.1      |
+| Provider 5  | 4.4.5       |
+| Provider 7  | 4.1.2.37    |
+
+----------------------------------------------
 
 ## 09/10/2025 - v05.04.01
 
