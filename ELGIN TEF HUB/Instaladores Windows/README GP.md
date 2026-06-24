@@ -31,7 +31,152 @@ Para novas atualizações adicione o bloco abaixo com os detalhes da liberação
 
 ///FIM
 -->
+
+# Release Notes - Lib E1_TEF
+
+## 18/06/2026 - v05.08.00
+
+### Melhorias
+- Atualização de componentes
+ - Atualização dos componentes do provider 7
+
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.09.00    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.32.2      |
+| Provider 5      | 5.0.0-2     |
+| Provider 7      | 4.1.2.275   |
+-------------------------------------------
+
+## 15/05/2026 - v05.08.00
+
+### Melhorias
+- Atualização de componentes
+ - Atualização dos componentes do provider 5 e do provider 7
+
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.08.00    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.32.2      |
+| Provider 5      | 5.0.0-2     |
+| Provider 7      | 4.1.2.265   |
+-------------------------------------------
+
 # Release Notes - GP TEFHUB
+
+## 06/05/2026 - v05.07.00
+
+### Melhorias
+- Melhoria no timing/sincronismo GP <--> TefWeb
+  - GP verifica se TefWeb reconhece a transação e se deve (GP) processá-la ou não
+  - Evita que o GP continue uma operação que o E1_Connect já tenha descartado por timeout, que ocorria em cenários muito específicos
+- Atualização do E1_Connect para v02.01.00
+  - Implementação do mecanismo que permite essa melhoria no sincronismo
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.06.05    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.01.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.32.2      |
+| Provider 5      | 4.4.6.2     |
+| Provider 7      | 4.1.2.37    |
+
+------------------------------------------------
+
+## 29/04/2026 - v05.06.05
+
+### Correção
+- Atualização do componentes E1_Tef.
+ - Atualização para correção para cancelamento do PIX quando utilizado provider7.
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.06.05    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.32.2      |
+| Provider 5      | 4.4.6.2     |
+| Provider 7      | 4.1.2.37    |
+
+------------------------------------------------
+
+## 01/04/2026 - v05.06.04
+
+### Melhorias
+- Suporte ao cancelamento durante coleta do cartão (Apenas provider7)
+  - Durante o fluxo de coleta, será retornado a palavra chave "coletaCartao", nesse momento será liberado o botão para cancelar a operação de leitura do cartão.
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.06.04    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.32.2      |
+| Provider 5      | 4.4.6.2     |
+| Provider 7      | 4.1.2.37    |
+
+----------------------------------------------
+
+## 09/03/2026 - v05.06.03
+
+### Melhorias
+- Atualização no componente E1_TEF
+- Atualização no componente E1_ETH_Service
+
+### Componentes
+
+|   Componente    | Versão      |
+|-----------------|-------------|
+| E1_TEF          | 05.06.03    |
+| E1_ETX          | 04.06.00    |
+| E1_UPDATER      | 01.02.00    |
+| E1_UPLOADER     | 02.00.01    |
+| E1_Connect      | 02.00.00    |
+| E1_ETH_Service  | 01.00.00    |
+| Provider 2      | 2.3.7       |
+| Provider 3      | 4.32.2      |
+| Provider 5      | 4.4.6.2     |
+| Provider 7      | 4.1.2.37    |
+
+----------------------------------------------
+
 ## 11/02/2026 - v05.06.01
 
 ### Melhorias
