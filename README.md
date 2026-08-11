@@ -18,7 +18,7 @@
   *  Hardware: 4GB de RAM disponível. 80 GB de espaço disponível em disco.
 * Android:
   * Versão 7 ou superior.
-  * Hardware: 2GB de RAM. 16GB de espaço em disco.
+  * Hardware: 2GB de RAM disponível. 16GB de espaço disponível em disco.
 
   
 ## Elgin TEF
