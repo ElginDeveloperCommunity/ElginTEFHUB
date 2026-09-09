@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\devs\\tef\\VB.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|d:\\devs\\tef\\vb.net\\elgintefapivbnet\\controleapi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|solutionrelative:elgintefapivbnet\\controleapi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|d:\\devs\\tef\\vb.net\\elgintefapivbnet\\mainwindow.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|solutionrelative:elgintefapivbnet\\mainwindow.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|d:\\devs\\tef\\vb.net\\elgintefapivbnet\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|solutionrelative:elgintefapivbnet\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|d:\\devs\\tef\\vb.net\\elgintefapivbnet\\coletapinpad.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|solutionrelative:elgintefapivbnet\\coletapinpad.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|d:\\devs\\tef\\vb.net\\elgintefapivbnet\\application.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|solutionrelative:elgintefapivbnet\\application.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|d:\\devs\\tef\\vb.net\\elgintefapivbnet\\administrativa.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|solutionrelative:elgintefapivbnet\\administrativa.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|d:\\devs\\tef\\vb.net\\elgintefapivbnet\\administrativa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F1673B7-4054-4B7B-9C1B-F0AECB17B1E1}|ElginTefApiVBNET\\ElginTefApiVBNET.vbproj|solutionrelative:elgintefapivbnet\\administrativa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ControleApi.vb",
+              "DocumentMoniker": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\ControleApi.vb",
+              "RelativeDocumentMoniker": "ElginTefApiVBNET\\ControleApi.vb",
+              "ToolTip": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\ControleApi.vb",
+              "RelativeToolTip": "ElginTefApiVBNET\\ControleApi.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-09-09T14:01:00.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ElginTefApiVBNET\\MainWindow.xaml",
+              "ToolTip": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\MainWindow.xaml",
+              "RelativeToolTip": "ElginTefApiVBNET\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-09T14:01:00.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.vb",
+              "DocumentMoniker": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\MainWindow.xaml.vb",
+              "RelativeDocumentMoniker": "ElginTefApiVBNET\\MainWindow.xaml.vb",
+              "ToolTip": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\MainWindow.xaml.vb",
+              "RelativeToolTip": "ElginTefApiVBNET\\MainWindow.xaml.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-09-09T14:00:57.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColetaPinPad.xaml.vb",
+              "DocumentMoniker": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\ColetaPinPad.xaml.vb",
+              "RelativeDocumentMoniker": "ElginTefApiVBNET\\ColetaPinPad.xaml.vb",
+              "ToolTip": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\ColetaPinPad.xaml.vb",
+              "RelativeToolTip": "ElginTefApiVBNET\\ColetaPinPad.xaml.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-09-09T13:58:54.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Application.xaml.vb",
+              "DocumentMoniker": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\Application.xaml.vb",
+              "RelativeDocumentMoniker": "ElginTefApiVBNET\\Application.xaml.vb",
+              "ToolTip": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\Application.xaml.vb",
+              "RelativeToolTip": "ElginTefApiVBNET\\Application.xaml.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-09-09T13:58:51.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Administrativa.xaml.vb",
+              "DocumentMoniker": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\Administrativa.xaml.vb",
+              "RelativeDocumentMoniker": "ElginTefApiVBNET\\Administrativa.xaml.vb",
+              "ToolTip": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\Administrativa.xaml.vb",
+              "RelativeToolTip": "ElginTefApiVBNET\\Administrativa.xaml.vb",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-09-09T13:58:25.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Administrativa.xaml",
+              "DocumentMoniker": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\Administrativa.xaml",
+              "RelativeDocumentMoniker": "ElginTefApiVBNET\\Administrativa.xaml",
+              "ToolTip": "D:\\devs\\tef\\VB.NET\\ElginTefApiVBNET\\Administrativa.xaml",
+              "RelativeToolTip": "ElginTefApiVBNET\\Administrativa.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-09T13:58:19.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

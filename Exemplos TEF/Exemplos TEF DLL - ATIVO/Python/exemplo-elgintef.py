@@ -918,7 +918,10 @@ class AsyncioThread(threading.Thread):
             return None
 
     def get_retorno(self, resp):
-        return self.get_string_value_in(self.jsonify(resp), 'tef', 'resultadoTransacao')
+        # A API retorna o status da operação em `tef.retorno`.
+        # `resultadoTransacao` era usado por versões antigas da API; ao consultá-lo
+        # em uma resposta atual ele retorna None e o fluxo finaliza logo após iniciar.
+        return self.get_string_value_in(self.jsonify(resp), 'tef', 'retorno')
 
     def get_sequencial(self, resp):
         return self.get_string_value_in(self.jsonify(resp), 'tef', 'sequencial')

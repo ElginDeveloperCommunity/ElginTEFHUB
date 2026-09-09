@@ -24,3 +24,10 @@ C:\Users\gabriel.franzeri.ELGIN\source\repos\ElginTefApiVBNET\ElginTefApiVBNET\o
 C:\Users\gabriel.franzeri.ELGIN\source\repos\ElginTefApiVBNET\ElginTefApiVBNET\bin\Debug\Newtonsoft.Json.dll
 C:\Users\gabriel.franzeri.ELGIN\source\repos\ElginTefApiVBNET\ElginTefApiVBNET\bin\Debug\Newtonsoft.Json.xml
 C:\Users\gabriel.franzeri.ELGIN\source\repos\ElginTefApiVBNET\ElginTefApiVBNET\obj\Debug\ElginTefApiVBNET.vbproj.CopyComplete
+D:\devs\tef\VB.NET\ElginTefApiVBNET\obj\Debug\ElginTefApiVBNET.vbproj.AssemblyReference.cache
+D:\devs\tef\VB.NET\ElginTefApiVBNET\obj\Debug\ElginTefApiVBNET.Resources.resources
+D:\devs\tef\VB.NET\ElginTefApiVBNET\obj\Debug\ElginTefApiVBNET.vbproj.GenerateResource.cache
+D:\devs\tef\VB.NET\ElginTefApiVBNET\obj\Debug\ElginTefApiVBNET.vbproj.CoreCompileInputs.cache
+D:\devs\tef\VB.NET\ElginTefApiVBNET\obj\Debug\ElginTefApiVBNET.exe
+D:\devs\tef\VB.NET\ElginTefApiVBNET\obj\Debug\ElginTefApiVBNET.xml
+D:\devs\tef\VB.NET\ElginTefApiVBNET\obj\Debug\ElginTefApiVBNET.pdb

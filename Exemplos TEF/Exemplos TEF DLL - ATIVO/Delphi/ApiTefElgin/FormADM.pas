@@ -96,12 +96,8 @@ begin
     exit;
   end;
 
-  // Se usuário não escolher escrever o valor pedido, pedir para que seja 
-  // escrito
-  if (txtOperador.Text = '') and (txtOperador.Visible) then begin
-    ShowMessage('Escreva o valor pedido');
-    exit;
-  end;
+  // NOTA: coleta tipo texto permite valor vazio - nao bloquear txt vazio aqui.
+  // Se a operação exigir valor, a própria DLL retorna nova coleta.
 
   // pega valor escolhido pelo usuário
   retList := IntToStr(listOperador.ItemIndex);
@@ -166,12 +162,7 @@ begin
     exit;
   end;
 
-  // Se usuário não escolher escrever o valor pedido, pedir para que seja 
-  // escrito
-  if (txtOperador.Text = '') and (txtOperador.Visible) then begin
-    ShowMessage('Escreva o valor pedido');
-    exit;
-  end;
+  // NOTA: coleta tipo texto permite valor vazio - nao bloquear txt vazio aqui.
 
   // pega valor escolhido pelo usuário
   retList := IntToStr(listOperador.ItemIndex);

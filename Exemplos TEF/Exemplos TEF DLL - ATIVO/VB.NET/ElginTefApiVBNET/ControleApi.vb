@@ -9,7 +9,8 @@ Public Class ControleApi
     ' ============ CARREGAMENTO DAS FUNÇÕES DA DLL ================== //
     ' ===================================================================== //
 
-    Public Const PATH As String = "..\..\E1_Tef01.dll"
+    ' A API TEF deve ser carregada exclusivamente da instalação local da Elgin.
+    Public Const PATH As String = "C:\Elgin\TEF\E1_Tef01.dll"
 
     <DllImport(PATH, CallingConvention:=CallingConvention.StdCall)>
     Friend Shared Function GetProdutoTef() As Integer

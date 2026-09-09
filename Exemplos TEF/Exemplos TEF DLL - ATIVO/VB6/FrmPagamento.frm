@@ -184,15 +184,6 @@ Begin VB.Form FrmPagamento
       End
       Begin VB.TextBox lblValor 
          Alignment       =   1  'Right Justify
-         BeginProperty DataFormat 
-            Type            =   1
-            Format          =   "0,00"
-            HaveTrueFalseNull=   0
-            FirstDayOfWeek  =   0
-            FirstWeekOfYear =   0
-            LCID            =   1046
-            SubFormatType   =   1
-         EndProperty
          BeginProperty Font 
             Name            =   "Verdana"
             Size            =   15.75
@@ -244,12 +235,12 @@ Private Sub OkEvent()
     End If
     
     ' se usuário não escrever o valor pedido, pedir para que seja escrito
-    If txtOperador.Visible Then
-        If txtOperador.Text = "" Then
-            MsgBox "Escreva o valor pedido"
-            Exit Sub
-        End If
-    End If
+    'If txtOperador.Visible Then
+        'If txtOperador.Text = "" Then
+         '   MsgBox "Escreva o valor pedido"
+         '   Exit Sub
+        'End If
+    'End If
     
     ' pega valor escolhido pelo usuário
     retList = CStr(lstOperador.ListIndex)
@@ -443,7 +434,7 @@ End Sub
 ' Função usada na fase de coleta para mostrar elementos e escritas enviadas
 ' pela API em formato de ListBox à Automação Comercial
 Private Sub printTelaArray(elements() As String)
-    Dim i As Long
+    Dim I As Long
     
     ' reseta UI
     lstOperador.Clear
@@ -462,9 +453,9 @@ Private Sub printTelaArray(elements() As String)
 
 
     ' adiciona ao listOperador os elementos presentes no parâmetro da função
-    For i = LBound(elements) To UBound(elements)
-        lstOperador.AddItem (elements(i))
-    Next i
+    For I = LBound(elements) To UBound(elements)
+        lstOperador.AddItem (elements(I))
+    Next I
     
     ' torna o lstOperador visível ao usuário
     lstOperador.Visible = True
@@ -498,10 +489,10 @@ Public Sub ShowQRCode(qrCodeData As String)
     SaveByteArrayAsBitmapFile imageBytes, tempFilePath
     
     ' load the image file into the image control
-    Dim token As Long
-    token = InitGDIPlus
+    Dim Token As Long
+    Token = InitGDIPlus
     imgQRCode.Picture = LoadPictureGDIPlus(tempFilePath, imgQRCode.Width / 15, imgQRCode.Height / 15, vbWhite)
-    FreeGDIPlus token
+    FreeGDIPlus Token
     
     Kill tempFilePath
 End Sub
@@ -726,7 +717,7 @@ Private Function Coletar(ByVal operacao As Integer, ByVal root As JsonBag) As St
     Dim retorno As String
     Dim opcoes() As String
     Dim elements() As String
-    Dim i As Integer
+    Dim I As Integer
     
     ' extrair dados da resposta / coleta
     coletaRetorno = GetStringValue(root, "tef", "automacao_coleta_retorno")
@@ -768,10 +759,10 @@ Private Function Coletar(ByVal operacao As Integer, ByVal root As JsonBag) As St
             opcoes = Split(coletaOpcao, ";")
             ReDim elements(UBound(opcoes))
             
-            For i = 0 To UBound(opcoes)
-                elements(i) = "[" & i & "] " & UCase(opcoes(i)) & vbCrLf
-                writeLogs ("[" & i & "] " & UCase(opcoes(i)) & vbCrLf)
-            Next i
+            For I = 0 To UBound(opcoes)
+                elements(I) = "[" & I & "] " & UCase(opcoes(I)) & vbCrLf
+                writeLogs ("[" & I & "] " & UCase(opcoes(I)) & vbCrLf)
+            Next I
             
             ' mostra na UI a lista de opções para que o usuário selecione
             printTelaArray elements

@@ -6,7 +6,7 @@ import ctypes
 import platform
 
 if platform.system() == 'Windows':
-    ffi = ctypes.WinDLL('./E1_Tef01.dll')
+    ffi = ctypes.WinDLL('C:/Elgin/TEF/E1_Tef01.dll')
 else:
     ffi = ctypes.cdll.LoadLibrary('./libE1_Tef.so.01.01.00')
 

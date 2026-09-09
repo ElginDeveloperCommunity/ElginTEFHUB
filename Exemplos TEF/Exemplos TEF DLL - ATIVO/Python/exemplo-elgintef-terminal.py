@@ -204,7 +204,10 @@ def incrementar_sequencial(sequencial):
         return None
 
 def get_retorno(resp):
-    return get_string_value_in(jsonify(resp), 'tef', 'resultadoTransacao')
+    # A API retorna o status da operação em `tef.retorno`.
+    # `resultadoTransacao` era usado por versões antigas da API; ao consultá-lo
+    # em uma resposta atual ele retorna None e o fluxo finaliza logo após iniciar.
+    return get_string_value_in(jsonify(resp), 'tef', 'retorno')
 
 def get_sequencial(resp):
     return get_string_value_in(jsonify(resp), 'tef', 'sequencial')

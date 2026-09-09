@@ -1,0 +1,113 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ElginTefApiVBNET
+</name>
+</assembly>
+<members>
+<member name="T:ElginTefApiVBNET.My.MyWpfExtension">
+ <summary>
+ Módulo utilizado para definir as propriedades que estão disponíveis no My Namespace para WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ElginTefApiVBNET.My.MyWpfExtension.Application">
+ <summary>
+ Retorna o objeto de aplicação para a aplicação em execução
+ </summary>
+</member>
+<member name="P:ElginTefApiVBNET.My.MyWpfExtension.Computer">
+ <summary>
+ Retorna informação sobre o computador hospedeiro.
+ </summary>
+</member>
+<member name="P:ElginTefApiVBNET.My.MyWpfExtension.User">
+ <summary>
+ Retorna informação sobre o usuário atual.  Se você deseja executar a aplicação com as credenciais 
+ do usuário Windows atual, utilize o método My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:ElginTefApiVBNET.My.MyWpfExtension.Log">
+ <summary>
+ Retorna o log da aplicação. Os ouvintes podem ser configurados pelo arquivo de configuração da aplicação.
+ </summary>
+</member>
+<member name="P:ElginTefApiVBNET.My.MyWpfExtension.Windows">
+ <summary>
+ Retorna a coleção de Janelas definida no projeto.
+ </summary>
+</member>
+<member name="T:ElginTefApiVBNET.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:ElginTefApiVBNET.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:ElginTefApiVBNET.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="T:ElginTefApiVBNET.Administrativa">
+<summary>
+Administrativa
+</summary>
+</member>
+<member name="M:ElginTefApiVBNET.Administrativa.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:ElginTefApiVBNET.ColetaPinPad">
+<summary>
+ColetaPinPad
+</summary>
+</member>
+<member name="M:ElginTefApiVBNET.ColetaPinPad.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:ElginTefApiVBNET.Pagamento">
+<summary>
+Pagamento
+</summary>
+</member>
+<member name="M:ElginTefApiVBNET.Pagamento.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:ElginTefApiVBNET.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:ElginTefApiVBNET.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:ElginTefApiVBNET.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:ElginTefApiVBNET.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:ElginTefApiVBNET.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>
