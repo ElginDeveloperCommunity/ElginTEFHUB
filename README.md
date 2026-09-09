@@ -17,12 +17,12 @@
   * Arch: "Rolling release" oficial, garatindo que os pacotes adicionais estejam atualizados.
   *  Hardware: 4GB de RAM disponível. 80 GB de espaço disponível em disco.
 * Android:
-  * Versão 7 ou superior.
-  * Hardware: 2GB de RAM. 16GB de espaço em disco.
+  * Versões oficiais dentro da vigência de suporte da Google.
+  * Hardware: 4GB de RAM disponível. 16GB de espaço disponível em disco.
 
   
 ## Elgin TEF
-O Tef Pay Elgin é uma solução que fornece para Automação Comercial integração para que seja possivel a captura de transações financeiras através de diversos concentradores de Tef disponíveis no mercado.
+O Elgin TEF HUB é uma solução que fornece para Automação Comercial integração para que seja possível a captura de transações financeiras através de diversos concentradores de TEF disponíveis no mercado.
 
 A Solução de TEF Elgin conta também com um módulo `E1_TEFPay_Passivo` que foi desenvolvida para facilitar as transações Eletrônicas usando o Modo de troca de arquivos com mensageria padrão `CHAVE = VALOR`
 
